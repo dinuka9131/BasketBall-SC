@@ -1,0 +1,42 @@
+body{
+    background-image: url("basketball.jpg");
+    background-size:cover;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    font: optional;color: aliceblue;
+}
+h3{
+    margin-top: 15px;
+font-size: 35px;
+}
+.score{
+    border: 2px solid white;
+    width: 100px;
+    height: 95px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    font-size: 85px;
+    text-justify:kashida;
+    text-align:center;
+    font-family: 'Cursed Timer ULiL';
+}
+button{
+    background-image: url("basketball.jpg");
+    top: 25px;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font: optional;color: beige;
+}
+.resetBtn{
+    height: 40px;
+    width: 80px;
+    margin-left:635px;
+}
